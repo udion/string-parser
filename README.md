@@ -17,3 +17,6 @@ expression → term{+ expression}[^∗]
 
 assignment → variable = expression
 
+[^+]: what it means in language and automaton
+
+[^*]: what it means in language and automaton
