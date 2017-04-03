@@ -1,7 +1,7 @@
 # string-parser
 This is a string parser written in functional progaramming language(SCHEME/DrRacket).
 
-The parser will classify the strings according to the following rules:
+The parser will classify the strings according to the following rules: <sup>yo</sup>
 
 
 ~~~
