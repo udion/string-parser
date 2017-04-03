@@ -7,7 +7,7 @@ The parser will classify the strings according to the following rules:
 ~~~
 number → {digit}[^+]
 
-identifier → letter{letter | digit}[^∗]
+identifier → letter{letter | digit}<sup>*</sup>
 
 variable → identifier | identifier[expression]
 
