@@ -4,23 +4,17 @@ This is a string parser written in functional progaramming language(SCHEME/DrRac
 The parser will classify the strings according to the following rules:
 
 
-**
-number → {digit}<sup>*</sup>
+**number → {digit}<sup>*</sup>**
 
-**
-identifier → letter{letter | digit}<sup>*</sup>
+**identifier → letter{letter | digit}<sup>*</sup>**
 
-**
-variable → identifier | identifier[expression]
+**variable → identifier | identifier[expression]**
 
-**
-term → number | variable | (expression)
+**term → number | variable | (expression)**
 
-**
-expression → term{+ expression}<sup>*</sup>
+**expression → term{+ expression}<sup>*</sup>**
 
-**
-assignment → variable = expression
+**assignment → variable = expression**
 
 <sup>*<sup>: what it means in language and automaton
 
